@@ -23,7 +23,7 @@ public class GestoreDropMostri {
                         if (o.getTipoOggetto() == TipoOggetti.ESPLOSIVO) {
                             int quantitaPrima = o.getQuantita();
                             o.setQuantita((o.getQuantita() + quantita));
-                            System.out.println("\nDal corpo senza vita del mostro trovi...\n" + quantita + " " + (quantita > 1 ? "Monete" : o.getNome()));
+                            System.out.println("\nDal corpo senza vita del mostro trovi...\n" + quantita + " " + (quantita > 1 ? "Bombe" : o.getNome()));
                             System.out.println(o.getNome() + ": " + quantitaPrima + " -> " + o.getQuantita());
                         }
                     }
