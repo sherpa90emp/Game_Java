@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DCGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DCGame_jar</output-path>
+    <root id="archive" name="DCGame.jar">
+      <element id="module-output" name="DCGame" />
+    </root>
+  </artifact>
+</component>
