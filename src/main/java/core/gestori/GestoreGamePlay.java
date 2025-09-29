@@ -6,8 +6,6 @@ import core.entita.player.Eroe;
 import core.tipi.TipoDirezione;
 import core.tipi.TipoIncontro;
 
-import java.util.InputMismatchException;
-
 public class GestoreGamePlay {
     private Eroe eroe;
     private final InputPort<String> input;
@@ -78,8 +76,8 @@ public class GestoreGamePlay {
                         System.out.println("Scelta non valida, inserisci un numero tra 0 e 4!");
                     }
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Input non valido, inserisci un numero!");
+            } catch (NumberFormatException e) {
+                System.out.println("Input non valido!");
             }
         }
     }

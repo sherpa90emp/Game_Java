@@ -1,8 +1,8 @@
 package core.nomi;
 
 public enum NomiPozione {
-    CURAPICCOLA ("Pozione di cura piccola"),
-    CURAGRANDE ("Pozione di cura grande");
+    CURAPICCOLA("Pozione di cura piccola"),
+    CURAGRANDE("Pozione di cura grande");
 
 
     private final String nome;

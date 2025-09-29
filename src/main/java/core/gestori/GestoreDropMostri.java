@@ -5,7 +5,7 @@ import core.oggetti.Oggetto;
 import core.tipi.TipoMostriSpawn;
 import core.tipi.TipoOggetti;
 
-import  java.util.Random;
+import java.util.Random;
 
 public class GestoreDropMostri {
     Random random = new Random();

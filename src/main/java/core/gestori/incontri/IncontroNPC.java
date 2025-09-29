@@ -11,7 +11,7 @@ import core.oggetti.Oggetto;
 import core.tipi.TipoNPC;
 import core.tipi.TipoOggetti;
 
-import  java.util.InputMismatchException;
+import java.util.InputMismatchException;
 
 
 public class IncontroNPC implements Incontro<TipoNPC> {

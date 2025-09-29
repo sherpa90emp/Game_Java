@@ -2,7 +2,7 @@ package core.oggetti;
 
 import core.tipi.TipoOggetti;
 
-import  java.util.Random;
+import java.util.Random;
 
 public class Moneta extends Oggetto {
     public Moneta(TipoOggetti tipoOggetto, int quantita, int valore) {

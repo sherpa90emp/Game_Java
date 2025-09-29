@@ -6,7 +6,7 @@ import core.interfacce.Incontro;
 import core.oggetti.Oggetto;
 import core.tipi.TipoOggetti;
 
-import  java.util.Random;
+import java.util.Random;
 
 public class IncontroTesoro implements Incontro<TipoOggetti> {
 

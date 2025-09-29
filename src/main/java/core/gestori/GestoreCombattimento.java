@@ -12,7 +12,7 @@ import core.oggetti.Pozione;
 import core.tipi.TipoMostriSpawn;
 import core.tipi.TipoOggetti;
 
-import  java.util.*;
+import java.util.*;
 
 public class GestoreCombattimento {
     private Eroe eroe;
@@ -38,7 +38,7 @@ public class GestoreCombattimento {
             System.out.println("Che cosa vuoi fare?");
             try {
                 byte scelta = Byte.parseByte(input.getInput());
-                switch (scelta){
+                switch (scelta) {
                     case 1: {
                         eroe.attacco(mostroGenerato, input);
                         azioneValida = true;
@@ -80,12 +80,12 @@ public class GestoreCombattimento {
                     GestoreFineGioco.morteEroe(eroe);
                     return false;
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Input non valido, inserisci un numero!");
+            } catch (NumberFormatException e) {
+                System.out.println("Input non valido!");
             }
             eroe.aggiornaTurno();
         }
-        if (mostroGenerato instanceof Drago && mostroGenerato.isDead() && !eroe.isDead()){
+        if (mostroGenerato instanceof Drago && mostroGenerato.isDead() && !eroe.isDead()) {
             GestoreFineGioco.vittoriaEroe(eroe);
         }
         if (mostroGenerato.isDead() && !eroe.isDead()) {
@@ -182,7 +182,7 @@ public class GestoreCombattimento {
                 }
                 default -> System.out.println("Numero non valido, inserisci un numero da 1 a 4!");
             }
-        } catch (InputMismatchException e) {
+        } catch (NumberFormatException e) {
             System.out.println("Input non valido!");
         }
         if (mostroGenerato != null && mostroGenerato.isDead()) {

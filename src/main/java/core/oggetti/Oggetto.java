@@ -41,10 +41,10 @@ public class Oggetto {
 
     @Override
     public String toString() {
-        String base = tipoOggetto + ": "+ nome + " " + quantita;
+        String base = tipoOggetto + ": " + nome + " " + quantita;
         if (tipoOggetto != TipoOggetti.VALUTA) {
             base += ", valore: " + valore + " Corone di Valdor";
         }
-        return  base;
+        return base;
     }
 }

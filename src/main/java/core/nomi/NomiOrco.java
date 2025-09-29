@@ -1,15 +1,15 @@
 package core.nomi;
 
 public enum NomiOrco {
-    SPACCACRANI ("Orco Spaccacrani"),
-    DENTIGROSSI ("Orco Dentigrossi"),
-    MARTELLATORE ("Orco Martellatore"),
-    SCORTICATORE ("Orco Scorticatore"),
-    ZANNEPOSSENTI ("Orco Zannepossenti"),
-    CORNOFERREO ("Orco Cornoferreo"),
-    FAUCILACERANTI ("Orco Faucilaceranti"),
-    SGIGNAZZATORE ("Orco Sghignazzante"),
-    SVENTRATORE ("Orco Sventratore");
+    SPACCACRANI("Orco Spaccacrani"),
+    DENTIGROSSI("Orco Dentigrossi"),
+    MARTELLATORE("Orco Martellatore"),
+    SCORTICATORE("Orco Scorticatore"),
+    ZANNEPOSSENTI("Orco Zannepossenti"),
+    CORNOFERREO("Orco Cornoferreo"),
+    FAUCILACERANTI("Orco Faucilaceranti"),
+    SGIGNAZZATORE("Orco Sghignazzante"),
+    SVENTRATORE("Orco Sventratore");
 
     private final String nome;
 

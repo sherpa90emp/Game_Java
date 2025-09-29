@@ -9,7 +9,7 @@ import core.entita.mostri.Scheletro;
 import core.entita.player.Eroe;
 import core.tipi.TipoMostriSpawn;
 
-import  java.util.ArrayList;
+import java.util.ArrayList;
 
 public class IncontroMostro implements Incontro<TipoMostriSpawn> {
 
@@ -28,7 +28,7 @@ public class IncontroMostro implements Incontro<TipoMostriSpawn> {
                 mostroGenerato = new Scheletro((short) 1, new ArrayList<>());
             }
         }
-        System.out.println("È apparso: " +"\n"+ mostroGenerato);
+        System.out.println("È apparso: " + "\n" + mostroGenerato);
     }
 
     @Override

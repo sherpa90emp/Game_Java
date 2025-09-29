@@ -5,7 +5,7 @@ import core.entita.player.Eroe;
 import core.entita.player.Guerriero;
 import core.entita.player.Mago;
 
-import  java.util.List;
+import java.util.List;
 
 public class GestoreFineGioco {
 
@@ -50,9 +50,9 @@ public class GestoreFineGioco {
     }
 
     public static String classeEroe(Eroe eroe) {
-        if (eroe instanceof Guerriero) return  "Guerriero";
-        if (eroe instanceof Elfo) return  "Elfo";
-        if (eroe instanceof Mago) return  "Mago";
+        if (eroe instanceof Guerriero) return "Guerriero";
+        if (eroe instanceof Elfo) return "Elfo";
+        if (eroe instanceof Mago) return "Mago";
         return "Sconosciuta";
     }
 }

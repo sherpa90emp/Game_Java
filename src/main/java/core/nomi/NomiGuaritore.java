@@ -1,11 +1,11 @@
 package core.nomi;
 
 public enum NomiGuaritore {
-    ELANDRIL ("Elandril di Lórindor"),
-    SYLTHARIEL ("Sylthariel di Aelwen"),
-    FAELION ("Faelion di Mythralis"),
-    CALANDRIEL ("Calandriel di Elenvar"),
-    THALORIEN ("Thalorien di Vaeloria");
+    ELANDRIL("Elandril di Lórindor"),
+    SYLTHARIEL("Sylthariel di Aelwen"),
+    FAELION("Faelion di Mythralis"),
+    CALANDRIEL("Calandriel di Elenvar"),
+    THALORIEN("Thalorien di Vaeloria");
 
     private final String nome;
 

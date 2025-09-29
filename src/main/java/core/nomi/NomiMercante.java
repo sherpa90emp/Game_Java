@@ -1,11 +1,11 @@
 package core.nomi;
 
 public enum NomiMercante {
-    KOFI ("Kofi di Zanjara"),
-    AMARA ("Amara di Nyumbani"),
-    JABARI ("Jabari di Kalimba"),
-    ZOLA ("Zola di Sundari"),
-    AZIZI ("Azizi di Marula");
+    KOFI("Kofi di Zanjara"),
+    AMARA("Amara di Nyumbani"),
+    JABARI("Jabari di Kalimba"),
+    ZOLA("Zola di Sundari"),
+    AZIZI("Azizi di Marula");
 
     private final String nome;
 

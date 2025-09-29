@@ -1,11 +1,11 @@
 package core.nomi;
 
 public enum NomiFabbro {
-    BJORN ("Bjorn di Skjoldheim"),
-    HALDOR ("Haldor di Frostgard"),
-    EIRIK ("Eirik di Drakensfjord"),
-    SVEN ("Sven di Vargheim"),
-    LEIF ("Leif di Niflheimar");
+    BJORN("Bjorn di Skjoldheim"),
+    HALDOR("Haldor di Frostgard"),
+    EIRIK("Eirik di Drakensfjord"),
+    SVEN("Sven di Vargheim"),
+    LEIF("Leif di Niflheimar");
 
     private final String nome;
 

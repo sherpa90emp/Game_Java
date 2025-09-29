@@ -7,8 +7,7 @@ import core.entita.player.Guerriero;
 import core.entita.player.Mago;
 import core.oggetti.*;
 
-import  java.util.ArrayList;
-import  java.util.InputMismatchException;
+import java.util.ArrayList;
 
 
 public class GestoreHomePage {
@@ -68,8 +67,8 @@ public class GestoreHomePage {
                         System.out.println("Scelta non valia! Inserisci un numero compreso tra 0 e 3!");
                     }
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Input non valido! Inserisci un numero!");
+            } catch (NumberFormatException e) {
+                System.out.println("Input non valido!");
             }
         }
         return eroe;
