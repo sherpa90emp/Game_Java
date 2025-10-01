@@ -9,9 +9,19 @@ import core.tipi.TipoDanno;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Classe drago che estende la classe mostro. Il Drago è il mostro finale del gioco.
+ */
 public class Drago extends Mostro {
 
+    /**
+     * Valore di attacco fisico del drago.
+     */
     private short attFisico;
+
+    /**
+     * Valore di attacco magico del drago.
+     */
     private short attMagico;
 
     public Drago(short livello, ArrayList<Oggetto> drop) {
@@ -38,10 +48,7 @@ public class Drago extends Mostro {
 
     @Override
     public String toString() {
-        return nome + " [Lv. " + livello + "]\n" +
-                "HP: " + hp + "\n" +
-                "Atk.F: " + attFisico + "\n" + "Atk.M: " + attMagico + "\n" +
-                "Dif.F: " + difFisica + "\n" + "Dif.M: " + difMagica + "\n";
+        return nome + " [Lv. " + livello + "]\n" + "HP: " + hp + "\n" + "Atk.F: " + attFisico + "\n" + "Atk.M: " + attMagico + "\n" + "Dif.F: " + difFisica + "\n" + "Dif.M: " + difMagica + "\n";
     }
 
     @Override

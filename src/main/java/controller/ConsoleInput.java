@@ -3,7 +3,7 @@ package controller;
 import java.util.Scanner;
 
 /**
- * Implementazione di {@link InputPort} che legge l'input da console utilizzando un {@link Scanner}
+ * Implementazione di {@link InputPort} che legge l'input da console utilizzando un {@link Scanner}.
  */
 public class ConsoleInput implements InputPort {
 
